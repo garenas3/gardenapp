@@ -56,7 +56,7 @@ class TemperatureInput(QWidget):
         inputLayout = QHBoxLayout()
 
         textLabel = QLabel()
-        textLabel.setText("Current Temperature")
+        textLabel.setText("Current Outside Temperature")
         inputLayout.addWidget(textLabel, stretch=1)
 
         temperatureSpinBox = QDoubleSpinBox()
